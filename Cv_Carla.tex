@@ -1,0 +1,206 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.1 (8/1/17)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[letterpaper]{twentysecondcv} % a4paper for A4
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+\profilepic{io_CV.jpg} % Profile picture
+
+\cvname{Carla Filosa} % Your name
+\cvjobtitle{} % Job title/career
+\cvdate{%28 November 1985, \newline
+} % Date of birth
+\cvaddress{Collinistrasse,5 \newline 68161, Mannheim (Germany)} % Short address/location, use \newline if more than 1 line is required
+\cvnumberphone{+49 15204616121} % Phone number
+%\cvsite{https://www.linkedin.com/in/carla-filosa-7a3719131/&} 
+\cvsite{\href{https://www.linkedin.com/in/carla-filosa-7a3719131/}{\underline{LinkedInCarlaFilosa}}} % Personal website
+\cvmail{carla.filosa@gmail.com} % Email address
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	 ABOUT ME
+%----------------------------------------------------------------------------------------
+\aboutme{I am a motivated and responsible person. I would define myself as well as a polyhedric and open-minded people, with a strong background in both Physics and Computational and Statistical Neuroscience, with four-year experience in Data Analysis. I am a team worker and I like to collaborate with professionals from different disciplines. In my projects I enjoy developing new skills for providing effective solutions to challenging problems. I am enthusiastic in acquiring new knowledge.} % To have no About Me section, just remove all the text and leave \aboutme{}
+
+%----------------------------------------------------------------------------------------
+%	 SKILLS
+%----------------------------------------------------------------------------------------
+
+% Skill bar section, each skill must have a value between 0 an 6 (float)
+\skills{{GitHub/3},{Microsoft Office/5.9},{Python/2.2},{Latex/5.9},{Matlab/5.9}}
+
+%------------------------------------------------
+
+\langs{{Italian/Mother tongue}, {English/Fluent}, {German/Fluent}, {Spanish/Intermediate}}
+% Skill text section, each skill must have a value between 0 an 6
+%\skillstext{{lovely/4},{narcissistic/3}}
+
+%----------------------------------------------------------------------------------------
+
+\makeprofile % Print the sidebar
+
+%----------------------------------------------------------------------------------------
+%	 INTERESTS
+%----------------------------------------------------------------------------------------
+
+\section{Job interests}\\
+\\Data science for company application. Statistical analysis. Machine Learning. Reinforcement Learning Models.
+
+%----------------------------------------------------------------------------------------
+%	 EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education and Job Experience}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem{2015-2019}{Ph.D. {\normalfont at the Heidelberg University\\
+Bioscience faculty\\
+and Central Institute of Mental Health\\
+Developmental Biology department}} 
+%{\normalfont Applied Mathematics and Computer Science}}
+{}{\textcolor{mainblue}{Formation of prediction error signals in interregional assemblies during reinforcement learning\\}
+\textcolor{mainblue}{Keywords} Unsupervised Learning Methods | Reinforcement Learning Models\\
+\textcolor{mainblue}{Estimating Neural Network models from Physiological Data based on Time Series Analysis\\}
+\textcolor{mainblue}{Keywords} Time series analysis | Non-stationary Autoregressive Poisson Models}
+ \twentyitem{2013-2015}{Research Project}{}{University of Rome  \emph{La Sapienza} \\ 
+\textcolor{mainblue}{Keywords} Publication Project on validation and further development of master Thesis results | Inverse Ising Models applied to Neuroscience| Inference of neural network connectivity | Mean field theory | Algorithms development.}
+\twentyitem{2010-2015}{Teaching}{}{Teaching programs at High School \emph{Liceo scientifico Talete} \\ 
+\textcolor{mainblue}{Keywords} Teaching Physics | High School teaching programs}
+	\twentyitem{2013}{M.Sc. Physics }{}{University of Rome  \emph{La Sapienza} \\ 
+\textcolor{mainblue}{Keywords} Inverse Ising Models applied to Neuroscience| Inference of neural network connectivity | Mean field theory | Algorithms development.}
+	\twentyitem{2007}{B.Sc. Physics}{}{University of  Rome \emph{La Sapienza}\\
+\textcolor{mainblue}{Keywords} Superfluidity in $He^{4}$ | Bogoljubov's Model | Approximation Methods | Analytical and numerical integrals.}
+
+\end{twenty}
+
+
+%----------------------------------------------------------------------------------------
+%	 PUBLICATIONS
+%----------------------------------------------------------------------------------------
+
+\section{Publications}
+
+\begin{twentyshort} % Environment for a short list with no descriptions
+\twentyitemshort{2015}{C.Capone, C.Filosa, G. Gigante, F. Ricci Tersenghi, P. Del Giudice\\ \emph{ Inferring Synaptic Structure in presence of Neural Interaction Time Scales}, PLOS One, Published: March 25, 2015.}
+\end{twentyshort}
+
+
+%
+%	 CONFERENCES
+%----------------------------------------------------------------------------------------
+
+\section{Main conferences contributions}
+
+
+%I contributed with oral presentations to the following international conferences in applied mathematics and optics field:
+\begin{twentyshort}
+\twentyitemshort{2019}{EMBL Symposia 2019, Heidelberg (Talk)}
+\twentyitemshort{2018}{ZI Reatreat 2018, Bad Duerkheim, Germany}
+\twentyitemshort{2018}{Bernstein Conference 2018, Berlin, Germany}
+\twentyitemshort{2016}{Bernstein Conference 2016, Berlin, Germany}
+\twentyitemshort{2016}{ZI Reatreat 2016, Bad Duerkheim, Germany}
+\twentyitemshort{2015}{Bernstein Conference 2015, Heidelberg, Germany}
+\twentyitemshort{2015}{CNS 2015, Prag, Czech Republic}
+\end{twentyshort}
+
+%------------
+%-------- Section Courses
+\section{Relevant training courses}
+
+
+\begin{twentyshort}
+\twentyitemshort{2018}{DKFZ Career Day: Entrepreneurship $\&$ (Bio)Tech}\\
+\twentyitemshort{2016}{Teamwork in Research Projects. Trainer: Dr. Sita Shane}
+\twentyitemshort{2016}{Analyzing personal potential for your career. Trainer: Dr. Ute Leidig}
+\twentyitemshort{2016}{DKFZ Career Day: Project Management}
+\twentyitemshort{2016}{Scientific Writing for Natural and Life Sciences. Trainer: Dr. Sita Shane}
+\twentyitemshort{2016}{How to present Scientific Results. Trainer: Dr. Sita Shane}
+\end{twentyshort}
+
+\newpage
+\makeprofile
+\section{Other remarkable experiences}
+
+
+%\begin{twentyshort}
+Scientific revision for the journal: \href{http://www.nature.com/srep/}{\underline{Scientific Reports}}
+%\end{twentyshort}
+
+%----------------------------------------------------------------------------------------
+%	 COURSES
+%----------------------------------------------------------------------------------------
+
+
+%I had been tutor and instructor of mathematics and physics courses for bachelor's students at Eindhoven University of Techology.
+%----------------------------------------------------------------------------------------
+%	 Teaching
+%----------------------------------------------------------------------------------------
+%\section{Teaching activities}
+%
+%\begin{twentyshort}
+%\twentyitemshort{2014-2017}{Tutor and instructor of mathematics and physics courses for bachelor's students at TU/e.}\\
+%\twentyitemshort{2010-2013}{Teacher of mathematics in special monthly programs for high-school students at \emph{Liceo scientifico statale "Talete"} in Rome.}
+%\end{twentyshort}
+
+%----------------------------------------------------------------------------------------
+%	 OTHER INFORMATION
+%---------------------------------------------------------------------------------------
+
+\section{Other information}
+
+\subsection{Communication skills}
+I am a communicative person, and I trained myself taking part in workshops and courses and simply presenting my job in several occasions. In fact during my Ph.D. I presented my research in several internal meetings at the Central Institute of Mental Health and in conferences as well.
+In those occasions the audience was mixed: ranging from neuroscientsts to psychiatrists to computational modellers, hence I learned how to explain specific contents of the project to people from different backgrounds.\\
+%\subsection{Description of my Ph.D. project}
+%During the learning the brain get modified in terms of his functional activity to learn and solve a new task. In this process a big role is played by the so called reward prediction error coding, namely the ability of the brain to compute differences between expected and received outcomes: one of the most fascinating and mysterious coding ability of the brain.
+%The purpose of this project is to understand and explain features of neurons and neuronal ensembles during a learning task, with a particular focus on brain regions interactions assumed to be able to compute the reward prediction error, based on theory of reinforcement learning model. 
+%\\
+
+
+
+\subsection{Other interests} 
+Since I was a child I have been loving to dance and sport in general. I have studied ballet and rhythmic gymnastics at competitive level for many years. I have taken part in National level competitions in both Rhythmic Gymnastic and Track and Field. Currently I still dance ballet and tango at amateur lever. The beauty of the nature of regions neighboring Mannheim has meant that since I arrived in Germany MTB has become one of my favourite hobbies.
+
+\subsection{Volunteering Experiences}
+Volunteer in Hospitals, Nursing Homes and Shelter Houses in Rome.
+
+%\subsection{References}
+%Available upon request.
+
+%\subsection{Review}
+
+
+%\section{Other information}
+
+%\subsection{Review}
+
+
+%----------------------------------------------------------------------------------------
+
+\end{document} 

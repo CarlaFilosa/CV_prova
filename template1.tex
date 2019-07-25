@@ -1,0 +1,218 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.1 (8/1/17)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[letterpaper]{twentysecondcv} % a4paper for A4
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+\profilepic{io.jpg} % Profile picture
+
+\cvname{Carmela Filosa} % Your name
+\cvjobtitle{Researcher} % Job title/career
+\cvdate{28 November 1985, \newline
+Torre del Greco (Italy)} % Date of birth
+\cvaddress{Tongelresestraat, 103 \newline 5613 DC, Eindhoven (NL)} % Short address/location, use \newline if more than 1 line is required
+\cvnumberphone{+31 628902617} % Phone number
+\cvsite{www.linkedin.com/in/cfilosa/} % Personal website
+\cvmail{c.filosa@tue.nl} % Email address
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	 ABOUT ME
+%----------------------------------------------------------------------------------------
+\aboutme{I am a motivated and responsible person, with a strong background in both pure and applied mathematics. I am a team worker and I like to collaborate with professionals from different disciplines. In my projects I enjoy developing new skills for providing effective solutions to challenging problems. I am entusiastic in acquiring new knowledge and willing to learn Dutch.} % To have no About Me section, just remove all the text and leave \aboutme{}
+
+%----------------------------------------------------------------------------------------
+%	 SKILLS
+%----------------------------------------------------------------------------------------
+
+% Skill bar section, each skill must have a value between 0 an 6 (float)
+\skills{{GitHub/4},{Adobe Illustrator/4.5},{Microsoft Office/5},{Python/1.2},{Latex/5.9},{Matlab/5.8}}
+
+%------------------------------------------------
+
+\langs{{Italian/Mother tongue}, {English/Fluent}, {Spanish/Intermediate}}
+% Skill text section, each skill must have a value between 0 an 6
+%\skillstext{{lovely/4},{narcissistic/3}}
+
+%----------------------------------------------------------------------------------------
+
+\makeprofile % Print the sidebar
+
+%----------------------------------------------------------------------------------------
+%	 INTERESTS
+%----------------------------------------------------------------------------------------
+
+\section{Research interests}
+
+Mathematical models for industrial applications. Numerical simulations. Illumination optics. Geometrical optics. Optical design. (Quasi-) Monte Carlo Ray Tracing.
+%----------------------------------------------------------------------------------------
+%	 EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem{2014-now}{Ph.D. {\normalfont at the Eindhoven University of Technology\\
+Department of Mathematics and Computer Science}} 
+%{\normalfont Applied Mathematics and Computer Science}}
+{}{ \textcolor{mainblue}{Phase Space Ray Tracing for Illumination Optics}\\Project in collaboration with Philips Lighting \\
+\textcolor{mainblue}{Keywords} Non-imaging Optics | Ray Tracing | (Quasi-) Monte Carlo simulations | Geometrical Optics | Fresnel reflection | Polarisation | Phase Space Optics | Development of Illumination Design Software.
+}
+	\twentyitem{2008-2013}{M.Sc. Mathematics }{}{University of Rome  \emph{La Sapienza} \\ 
+\textcolor{mainblue}{Keywords} Mathematical Physics | Controllability of Schr\"{o}dinger's equation.}
+	\twentyitem{2004-2008}{B.Sc. Mathematics}{}{University of  Rome \emph{La Sapienza}\\
+\textcolor{mainblue}{Keywords} Ordinary Differential Equations | Perturbation Theory | Mathematical Biology | Enzymes Cynetics.}
+
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+\section{Relevant courses}
+
+\begin{twentyshort}
+\twentyitemshort{2014}{HTO course on lighting technology (Intelligent Lighting Institute)}
+\twentyitemshort{2015}{Dutch for beginners (TU/e)}
+\twentyitemshort{2016}{IP\&S patent workshop (Intelligent Lighting Institute)}
+\end{twentyshort}
+
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+%\section{Experience}
+%
+%\begin{twenty} % Environment for a list with descriptions
+%	\twentyitem{2014-2017}{Teaching Assistance.}{Eindhoven University of Technology}{Tutor and/or instructor of mathematics and physics courses for bachelor's students at the Eindhoven University of Technology.}
+%	\twentyitem{2010-2013}{High school teacher}{\emph{Liceo Scientifico Talete}, Rome}{Teacher of mathematics in special montly programs organized for students with deficiencies in math.}
+%
+%\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 PUBLICATIONS
+%----------------------------------------------------------------------------------------
+
+\section{Publications}
+
+\begin{twentyshort} % Environment for a short list with no descriptions
+\twentyitemshort{2017}{C. Filosa, J.H.M. ten Thije Boonkkamp, and W.L. IJzerman\\ \emph{ Inverse ray mapping in phase space for two-dimensional reflective optical systems}, Journal of Computational Physics, submitted.}
+\twentyitemshort{2017}{C. Filosa, J.H.M. ten Thije Boonkkamp, and W.L. IJzerman \emph{Inverse ray mapping on phase space for two-dimensional optical systems}, proceedings OSA Conf. on freeform optics, Denver,  part F50- Freeform (2017).}
+\twentyitemshort{2017}{C. Filosa, J.H.M. ten Thije Boonkkamp, and W.L. IJzerman \\ \emph{Phase space ray tracing for a two-dimensional parabolic reflector}, Mathematics and Statistics, 5(4), 135-142 (2017)}
+\twentyitemshort{2016}{C. Filosa, J.H.M. ten Thije Boonkkamp, and W.L. IJzerman\\ \emph{A fast ray tracing method in phase space, Progress in Industrial mathematics at ECMI 2016, accepted}}
+	\twentyitemshort{2016}{C. Filosa, J.H.M. Ten Thije Boonkkamp, and W.L. IJzerman\\ \emph{Ray tracing method in phase space for two-dimensional optical systems}, Applied Optics 55, 3599-3606 (2016)}
+	
+	%\twentyitemshort{<dates>}{<title/description>}
+\end{twentyshort}
+
+%----------------------------------------------------------------------------------------
+%	 PATENT
+%--------------------------------
+\section{Patents}
+
+\begin{twentyshort}
+\twentyitemshort{2016}{\emph{Inverse ray mapping in phase space for two-dimensional optical systems}, submitted}
+\end{twentyshort}
+%-----------------------------------------------------------------------------------
+%	 CONFERENCES
+%----------------------------------------------------------------------------------------
+
+\section{Conference contributions}
+
+%I contributed with oral presentations to the following international conferences in applied mathematics and optics field:
+\begin{twentyshort}
+\twentyitemshort{2017}{European Conference on Numerical Mathematics and Advanced Applications (ENUMATH) 2017 Voss, Norway}
+\twentyitemshort{2017}{Optical Design and Fabrication Congress of Optical Society of America (OSA) 2017, Denver}
+\twentyitemshort{2016}{European Optical Society Annual Meeting (EOSAM) 2016, Berlin, Germany}
+\twentyitemshort{2016}{European Conference on Mathematics for Industry (ECMI) 2016, Santiago de Compostela, Spain}
+\end{twentyshort}
+\newpage
+\makeprofile
+
+
+ 
+%----------------------------------------------------------------------------------------
+%	 COURSES
+%----------------------------------------------------------------------------------------
+
+
+%I had been tutor and instructor of mathematics and physics courses for bachelor's students at Eindhoven University of Techology.
+%----------------------------------------------------------------------------------------
+%	 Teaching
+%----------------------------------------------------------------------------------------
+%\section{Teaching activities}
+%
+%\begin{twentyshort}
+%\twentyitemshort{2014-2017}{Tutor and instructor of mathematics and physics courses for bachelor's students at TU/e.}\\
+%\twentyitemshort{2010-2013}{Teacher of mathematics in special monthly programs for high-school students at \emph{Liceo scientifico statale "Talete"} in Rome.}
+%\end{twentyshort}
+
+%----------------------------------------------------------------------------------------
+%	 OTHER INFORMATION
+%---------------------------------------------------------------------------------------
+
+\section{Other information}
+\subsection{Teaching activities}
+\begin{twentyshort}
+\twentyitemshort{2014-2017}{Tutor and instructor of mathematics and physics courses for bachelor's students at TU/e.}\\
+\twentyitemshort{2010-2013}{Teacher of mathematics in special monthly programs for high-school students at \emph{Liceo scientifico statale "Talete"} in Rome.}
+\end{twentyshort}
+\subsection{Important activities}
+I participated to Dutch Mathematical Congress 2018 and ASML Ph.D. Master Class 2018.
+\subsection{Communication skills}
+During the years of my Ph.D. I presented my research at TNO in Delft and Philips Lighting in Eindhoven.
+In these occasions I learned how to explain mathematics problems to people from different backgrounds.\\
+I am member of WISE (Women in Science Excel) Network since 2014.\\
+\subsection{Description of my Ph.D. project}
+The purpose of this project is to develop and analyze a new ray tracing method based on the phase space representation of the optical system. This new method is faster and more accurate than existing methods. The challenge is to design this method, such that far less rays are needed than what is usual, to accurately simulate the optical system. The novel ray tracing method will be implemented in a new design tool for optical systems, enabling complicated designs of LED luminaires as well as other optical systems. The newly technique outperforms the existing mainstream optical simulation tools. This will allow to design optical components such that the desired output intensity at the target of the optical systems is achieved in a short computational time.\\
+
+%I collaborated with people working at Philips Lighting in Eindhoven.
+
+%----------------------------------------------------------------------------------------
+%	 SECOND PAGE EXAMPLE
+%----------------------------------------------------------------------------------------
+
+%\newpage % Start a new page
+% Print the sidebar
+
+%\section{Other information}
+\subsection{Other interests} Climbing. Dancing. Aerial Silk. Hiking.
+\subsection{References}
+Available upon request.
+
+%\subsection{Review}
+
+%Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
+
+%\section{Other information}
+
+%\subsection{Review}
+
+%Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
+
+%----------------------------------------------------------------------------------------
+
+\end{document} 
